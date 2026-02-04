@@ -1,0 +1,114 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+ENV/
+env/
+.venv
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+*/.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+
+# Data Files (Large)
+*.csv
+*.xlsx
+*.xls
+!requirements.txt
+data/
+datasets/
+*.json
+*.npy
+*.pkl
+*.pickle
+
+# Model Files
+*.h5
+*.model
+*.weights
+*.pt
+*.pth
+models/
+checkpoints/
+
+# Logs
+*.log
+logs/
+wandb/
+
+# Cache
+.cache/
+*.cache
+.pytest_cache/
+.hypothesis/
+
+# Environment
+.env
+.env.local
+*.pem
+secrets/
+
+# OS
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Temporary
+tmp/
+temp/
+*.tmp
+
+# Testing
+htmlcov/
+.coverage
+.coverage.*
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Documentation
+site/
+docs/_build/
+
+# Package manager
+poetry.lock
+Pipfile.lock
